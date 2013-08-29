@@ -85,7 +85,7 @@ def get_data(props, ds_re, cluster_host, esx_hosts, datastore_names):
 					cluster = cluster_host[esx_host]
 				except:
 					cluster = None
-				esx_host = esx_host.rstrip('.tpn.thinkingphones.net')
+				esx_host = esx_host.rstrip('.domain.tld')
 			elif prop.Name == 'guest.net':
 				nics = []
 				for nic in getattr(prop.Val, 'GuestNicInfo',[]):
