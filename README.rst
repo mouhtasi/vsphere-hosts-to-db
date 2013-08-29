@@ -3,8 +3,8 @@ VSphere Hosts to DB
 
 Description:
 ------------
-vsphere_fast.py: Pulls VM information from VSphere hosts.
-hostsvmtosql.py: Writes pulled data to database.
+| vsphere_fast.py: Pulls VM information from VSphere hosts.
+| hostsvmtosql.py: Writes pulled data to database.
 
 This was created for displaying VM information in Atlassian Confluence with "SQL Plugin for Confluence" (https://marketplace.atlassian.com/plugins/org.swift.confluence.sql)
 
